@@ -56,3 +56,29 @@ function initConverter() {
 
     updateRight();
 }
+
+
+// intersection = (...arrays) => {
+//     let result = [];
+//     let arr1 = arrays[0];
+//
+//     for(let i = 0; i < arr1.length; i++) {
+//         let num = arr1[i];
+//         let inAll = true;
+//
+//         for (let j = 1; j < arrays.length; j++) {
+//             if(!arrays[j].includes(num)) {
+//                 inAll = false;
+//                 break;
+//             }
+//         }
+//
+//         if(inAll && !result.includes(num)) {
+//             result.push(num);
+//         }
+//     }
+//
+//     return result;
+// }
+//
+// console.log(intersection([1, 2, 2], [2, 3], [0, 2]));
